@@ -43,3 +43,15 @@ spec/
 
 # Ignore coverage output
 coverage
+```
+
+### Suggested Additional File: .dockerignore
+
+To improve the Docker build process, create a `.dockerignore` file to exclude unnecessary files and directories from the build context.
+
+```plaintext
+node_modules
+npm-debug.log
+.DS_Store
+.git
+.gitignore
